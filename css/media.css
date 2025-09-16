@@ -1,0 +1,464 @@
+@media (max-width: 1400px) {
+  .episode__title {
+    font-size: 48px;
+    line-height: 52.8px;
+  }
+  .episode__img {
+    height: 100%;
+    margin: auto 0;
+  }
+  .artist__img {
+    height: 100%;
+  }
+}
+@media (max-width: 1340px) {
+  .footer__logo {
+    margin-right: 150px;
+  }
+  .footer__links {
+    margin-right: 150px;
+  }
+}
+@media (max-width: 1260px) {
+  .top__image-img {
+    width: 450px;
+  }
+  .top__content {
+    margin: 0 auto;
+  }
+  .top__text-title {
+    margin-left: 40px;
+  }
+  .top__links {
+    margin-left: 25px;
+  }
+  .episode__content {
+    position: relative;
+  }
+  .episode__btn {
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+  .subscribe-form__title {
+    font-size: 65px;
+    line-height: 71.5px;
+  }
+  .reviews__wrapper {
+    height: 1140px;
+    max-width: 862px;
+  }
+  .review__content {
+    width: 49%;
+  }
+  .review__content:nth-child(odd) {
+    height: 364px;
+  }
+  .footer__logo {
+    margin-right: 110px;
+  }
+  .footer__links {
+    margin-right: 110px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .top__text-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .top__text-title span:first-child {
+    font-size: 53px;
+    line-height: 63.6px;
+  }
+  .top__text-title span:last-child {
+    font-size: 58px;
+    line-height: 63.8px;
+  }
+  .title-img {
+    width: 95%;
+    bottom: -5px;
+  }
+  .episode {
+    flex-direction: column;
+  }
+  .episodes__inner {
+    padding-bottom: 0;
+  }
+  .episode__name {
+    margin-bottom: 25px;
+  }
+  .episode__content {
+    max-width: 100%;
+    margin: 30px 0 0;
+    position: static;
+  }
+  .episode__btn {
+    position: static;
+  }
+  .artist__inner {
+    flex-direction: column;
+  }
+  .artist__content {
+    margin: 65px 0;
+  }
+  .artist__img {
+    margin: 0;
+  }
+  .subscribe-form__title {
+    font-size: 48px;
+    line-height: 52.8px;
+  }
+  .subscribe-form__content {
+    height: auto;
+  }
+  .subscribe-form__input {
+    height: 60px;
+  }
+  .footer__logo {
+    margin-right: 50px;
+  }
+  .footer__links {
+    margin-right: 0;
+  }
+}
+@media (max-width: 970px) {
+  .top__image-img {
+    width: 350px;
+  }
+  .top__text-title {
+    margin-top: 25px;
+  }
+  .artist__inner {
+    padding: 50px;
+  }
+  .artist__button {
+    width: 100px;
+    height: 100px;
+  }
+  .artist__button-arrow {
+    top: 32px;
+    left: 15px;
+  }
+  .subscribe-form__content {
+    margin: 50px;
+  }
+  .subscribe-form__top {
+    padding: 50px 0 0 50px;
+  }
+  .footer__links {
+    flex-direction: column;
+  }
+  .second-links {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 870px) {
+  .top__image-img {
+    display: none;
+  }
+  .episodes__top-title {
+    font-size: 48px;
+    line-height: 59.5px;
+    margin-bottom: 0;
+  }
+  .episode__title {
+    font-size: 36px;
+    line-height: 39.6px;
+  }
+  .artist__name {
+    font-size: 48px;
+    line-height: 58.5px;
+  }
+  .artist__content {
+    margin: 50px 0;
+  }
+  .artist__button {
+    width: 90px;
+    height: 90px;
+  }
+  .artist__button-arrow {
+    top: 29px;
+    left: 15px;
+    width: 60px;
+  }
+  .subscribe-form__content {
+    margin: 40px;
+  }
+  .subscribe-form__top {
+    padding: 40px 0 0 40px;
+  }
+  .subscribe-form__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 10px;
+  }
+  .reviews__wrapper {
+    height: 1250px;
+    max-width: 770px;
+  }
+  .review__content {
+    height: 400px;
+  }
+  .review__content:nth-child(odd) {
+    height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+  .footer__links {
+    flex-direction: row;
+  }
+  .second-links {
+    margin-right: 0;
+  }
+}
+@media (max-width: 700px) {
+  .header__inner {
+    justify-content: center;
+  }
+  .header__menu {
+    display: none;
+  }
+  .episode {
+    margin: 30px;
+  }
+  .episodes__top {
+    padding-top: 70px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .episodes__top-btn {
+    min-width: 50%;
+  }
+  .subscribe-form {
+    padding: 50px 30px;
+  }
+  .subscribe-form__inner {
+    flex-direction: column;
+  }
+  .subscribe-form__top {
+    padding: 40px 40px 0;
+  }
+  .subscribe-form__content {
+    width: auto;
+  }
+  .subscribe-form__image {
+    bottom: -38px;
+  }
+  .reviews__inner {
+    padding: 50px 0;
+  }
+  .reviews__wrapper {
+    flex-wrap: nowrap;
+    height: auto;
+    max-width: 423px;
+  }
+  .review__content {
+    height: auto;
+    width: 100%;
+  }
+  .review__content:nth-child(odd) {
+    height: auto;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .footer__logo {
+    margin: 0 auto;
+  }
+  .footer__text-links {
+    margin: 0 auto;
+  }
+  .footer__links {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 530px) {
+  .top__text-title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .top__text-title span:first-child {
+    font-size: 41px;
+    line-height: 49.2px;
+  }
+  .top__text-title span:last-child {
+    font-size: 46px;
+    line-height: 50.6px;
+  }
+  .title-img {
+    width: 95%;
+    bottom: -5px;
+  }
+  .top__links {
+    margin-top: 40px;
+  }
+  .episode__title {
+    margin-right: 0;
+  }
+  .artist__content {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 500px) {
+  .top__inner {
+    padding: 30px 30px 0;
+  }
+  .episodes__top {
+    margin: 0 30px;
+  }
+  .episodes__top-title {
+    font-size: 36px;
+    line-height: 44.6px;
+    text-align: center;
+  }
+  .episodes__inner {
+    margin: 0;
+  }
+  .artist__inner {
+    padding: 30px;
+  }
+  .artist__name {
+    font-size: 36px;
+    line-height: 43.9px;
+  }
+  .subscribe-form__top {
+    padding: 30px 30px 0;
+  }
+  .subscribe-form__content {
+    margin: 30px;
+  }
+  .subscribe-form__image {
+    left: -30px;
+  }
+  .subscribe-form__input {
+    height: auto;
+    padding: 20px;
+  }
+  .subscribe-form__btn {
+    width: 100%;
+  }
+  .review__text {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+  .review__name {
+    font-size: 22px;
+    line-height: 26.4px;
+  }
+}
+
+@media (max-width: 400px) {
+  .top__inner {
+    padding: 0 20px;
+    display: block;
+  }
+  .top__text-title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .top__text-title span:first-child {
+    font-size: 37px;
+    line-height: 44.4px;
+  }
+  .top__text-title span:last-child {
+    font-size: 42px;
+    line-height: 46.2px;
+  }
+  .top__image-lines {
+    display: none;
+  }
+  .top__links {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .top__links-icons {
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 16px 0 0;
+  }
+  .episode {
+    margin: 30px;
+  }
+  .episodes__top-title {
+    font-size: 32px;
+    line-height: 39.6px;
+  }
+  .episode__title {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  .episode__btn {
+    padding: 12px 12px;
+  }
+  .artist__name {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .artist__button {
+    width: 80px;
+    height: 80px;
+  }
+  .artist__button-arrow {
+    top: 25px;
+    left: 13px;
+    width: 55px;
+  }
+  .subscribe-form {
+    padding: 30px;
+  }
+  .subscribe-form__title {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  .subscribe-form__input {
+    padding: 15px;
+  }
+  .subscribe-form__btn {
+    height: 42px;
+  }
+  .review__content {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top__text-title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .top__text-title span:first-child {
+    font-size: 33px;
+    line-height: 39.6px;
+  }
+  .top__text-title span:last-child {
+    font-size: 38px;
+    line-height: 41.8px;
+  }
+  .episodes__top-title {
+    font-size: 28px;
+    line-height: 34.7px;
+  }
+  .episode__title {
+    font-size: 28px;
+    line-height: 30.8px;
+  }
+  .artist__name {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .subscribe-form__title {
+    font-size: 28px;
+    line-height: 30.2px;
+  }
+}
